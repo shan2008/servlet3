@@ -20,7 +20,6 @@ import youshan.com.servlet.UserServlet;
 //传入感兴趣的类型；
 @HandlesTypes(value={HelloService.class})
 public class MyServletContainerInitializer implements ServletContainerInitializer {
-
 	/**
 	 * 应用启动的时候，会运行onStartup方法；
 	 *
